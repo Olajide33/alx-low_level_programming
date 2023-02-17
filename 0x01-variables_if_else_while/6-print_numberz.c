@@ -2,7 +2,8 @@
 
 /**
  * main - main function
- * Return: 0
+ *
+ *Return: 0
  */
 
 int main(void)
@@ -10,7 +11,7 @@ int main(void)
 	int i;
 
 	for (i = 0; i < 10; i++)
-	putchar('0' + i);
-	putchar("\n");
+	putchar(i + '0');
+	putchar('\n');
 	return (0);
 }
